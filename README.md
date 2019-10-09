@@ -1,11 +1,16 @@
 # EasyVagrant
 Ejecutar estos comandos antes:
-##########---------->VAGRANT!<------------------######### SÓLO DESARROLLO LOCAL
-#####ALERTA!: SACAR LA CARPETA DEL VAGRANT EN OTRA UBICACIÓN Y DESDE AHÍ MANEJARLA
+
+---------->VAGRANT!<------------------ SÓLO DESARROLLO LOCAL
+ALERTA!: SACAR LA CARPETA DEL VAGRANT EN OTRA UBICACIÓN Y DESDE AHÍ MANEJARLA
 #plugin para compartir archivos      <------------- INSTALACIÓN CRÍTICA 
+```
 vagrant plugin install vagrant-vbguest
+```
 #maneja variables de entorno : .env  <------------- INSTALACIÓN CRÍTICA 
+```
 vagrant plugin install vagrant-env
+```
 #CREAR UN ARCHIVO .env dentro de la carpeta VAGRANT
 #agregar esta línea ----> CUSTOM_IP=192.168.1.224 <--- TIENE QUE SER LA IP DE TU RED O LA QUE DESEES, ESTA TENDRÁ EL VAGRANT
 #levantar el vagrant
