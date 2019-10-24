@@ -1,5 +1,7 @@
 # EasyVagrant
 
+Requisitos: 
+- Instalar VirtualBox versión 6 a más
 
 ---------->VAGRANT!<------------------ SÓLO DESARROLLO LOCAL
 
