@@ -10,7 +10,7 @@ SCRIPT
 $install_docker_compose_script = <<SCRIPT
 #DOCKER-COMPOSE
 sudo yum install -y epel-release
-sudo yum install -y python-pip
+sudo yum install -y python-pip python-devel
 sudo pip install docker-compose
 sudo yum upgrade python*
 docker-compose version
