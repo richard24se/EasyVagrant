@@ -10,10 +10,10 @@ SCRIPT
 $install_docker_compose_script = <<SCRIPT
 #DOCKER-COMPOSE
 sudo yum install -y epel-release
-sudo yum install -y python-pip python-devel
-sudo pip install docker-compose
-sudo yum upgrade python*
-docker-compose version
+sudo yum install -y python3-pip python3-devel gcc python3
+sudo pip3 install docker-compose
+#sudo yum upgrade python*
+#docker-compose version
 SCRIPT
 $install_docker_portainer_script = <<SCRIPT
 #PORTAINER
