@@ -49,3 +49,7 @@ vagrant global-status
 ```
 vagrant ssh $UNIQUE_ID
 ```
+#Archivo init en powershell para dogrant y vacker
+```
+#if (!(Test-Path $Profile)) {
+    New-Item -Type file -Path $Profile -Force }
